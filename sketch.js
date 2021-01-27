@@ -68,12 +68,15 @@ function draw() {
 function keyPressed(){
 if(keyCode===UP_ARROW){
 
-// Matter.    //Matter.Body.setStatic(bob1.body, {isStatic:false})
-        console.log("hi");
-        Matter.Body.applyForce(bob1.body, bob1.body.position, {x:-120});
-         //Matter.Body.setStatic(bob1.body, {isStatic:false})
 
-	}
+       
+       
+        Matter.Body.setStatic(bob1.body, {isStatic:false})
+if(bob1.body,{isStatic:false}){
+  console.log("Morning!");
+  Matter.Body.applyForce(bob1.body, bob1.body.position, {x:-190});
+  }
+  
 	
 	
-}
+}}
